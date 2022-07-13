@@ -1,0 +1,279 @@
+.botones {
+  width: 100%;
+  text-align: center;
+}
+
+#separar {
+  padding: 3%;
+  float: left;
+}
+
+.titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #333333;
+}
+
+.boton {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #318aac;
+  border: 2px solid;
+  border-color: #318aac;
+  position: relative;
+}
+.boton:before {
+  content:"";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 1s ease;
+}
+.boton:hover:before {
+width: 100%;
+}
+
+.boton2 {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #318aac;
+  border: 2px solid;
+  border-color: #318aac;
+  position: relative;
+}
+.boton2:before {
+  content:"";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 1s ease;
+} 
+.boton2:hover:before {
+  height: 100%;
+}
+
+.boton3 {
+  color: #318aac !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: 2px solid;
+  border-color: #318aac;
+  transition: all 1s ease;
+  position: relative;
+}
+.boton3:hover {
+  background: #318aac;
+  color: #fff !important;
+}
+
+.boton4 {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #318aac;
+  border: 2px solid;
+  border-color: #318aac;
+  position: relative;
+}
+.boton4:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
+
+.boton5 {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #393939;
+  position: relative;
+  border: 2px solid #318aac;
+  outline: 1px solid;
+  outline-color: rgba(49, 138, 172, 0.4);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.boton5:hover {
+  box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fff;
+  border-shadow: 
+}
+
+
+*
+{
+	background-repeat: no-repeat;
+	background-size: 210%,210%;
+
+
+}
+.carru {
+	width: 800px;
+	margin: auto;
+	height: 0px;
+}
+
+.lg
+{
+	float:left;
+	width: 100%;
+	height: 0px;
+	margin: 10px;
+}
+.lg img {
+	
+	padding: 30px;
+	width: 400px;
+	margin-left: : 400px;
+}
+header
+{
+	;
+width: 100%
+	height: 300px;
+	background-color: rgba(0,0,0,0.4); 
+	float: left;
+padding: 17px;
+margin: 6px;
+border-radius: 5px;
+}
+.ff img{
+width: 24%;
+float: left;
+padding: 17px;
+margin: 6px;
+height: 300px;
+
+}.lebelco1{
+	font-weight:bold;
+	font-size:25px;
+	margin-left:40%;
+	padding-top: 20px;
+}
+.ps {
+	font-size: 20px;
+	font-family: Ar Julian;
+	color: #fff;
+}
+.inputco1{
+	border-radius:4px; 
+	height:25px; 
+	margin-left:;  
+	padding:2px; 
+	padding-left:8px;
+	padding-right:0px;
+	margin-bottom:10px;
+	padding-top: 20px;
+}
+.lebelco2{
+	font-weight:bold;
+	font-size:25px;
+	margin-left:37%;
+	padding-top: 20px;
+}
+.nn {
+	height: 40px;
+	width: 120px;
+	padding: 10px;
+	padding-right: 10px;
+	margin: 10px;
+	font-family: Ar Julian;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.ioia{
+	height: 230px;
+	width:20%;
+	margin-top: 30px;
+	border-radius: 20px;
+	background-color:rgba(0,0,0,0.5);
+	padding: 20px;
+	margin:auto;
+}.cabeza img{
+	width: 30%;
+	height:320px;
+	margin: auto;
+	padding: 20px;
+}
+.cuadro{
+	width: 180px;
+	height: 30px;
+	font-size: 20px;
+	font-family: Century Gothic;}
+
+.ps {
+	font-size: 20px;
+	font-family: Ar Julian;
+	color: #fff;
+}
+.menu{
+padding-top:230px;
+	-moz-border-radius:10px;/*Para Firefox*/
+	border-radius:10px;
+	overflow:hidden;
+	width: 40%;
+	margin:auto;
+}
+.menu ul{
+	padding-top: 200px;
+	list-style:none;
+	margin:0 10px 0 10px;
+	padding:30;
+}
+.menu ul li{
+	background:rgba(123,88,88,0.7);
+	-moz-border-radius:5px;/*Firefox*/
+	border-radius:5px;/*Estandar por defecto*/
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	margin-right:1px;
+	text-align:center;
+	/*Sombras para texto, los mismos parametros que box-shadow*/
+	text-shadow: 0px 1px 0px #FFF;
+}
+.menu ul li:hover{
+	/*Degradado de fondo*/
+	-moz-box-shadow:  1px -1px 0px #999;/*Firefox*/
+	box-shadow:  1px -1px 0px #999;/*Estandar por defecto*/
+}
+
+.menu ul li a{
+	color:#777;
+	display:block;
+	padding:10px;
+	text-decoration:none;
+	/*Transiciones*/
+}
+
+.menu ul li a:hover {
+	color:#000;
+}
+
+
+
+.leyenda {  background: rgba(224,255,255,0.3);
+            font-size: 72px;
+            color: navy;
+            font-weight: bold;
+            font-family: century gothic;
+            border: 3px solid white;
+            box-shadow: 5px 5px grey; 
+                 }
