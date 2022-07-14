@@ -78,18 +78,18 @@ $_SESSION['token'] = $token;
     <div class="limiter">
 		
 			
-				<form  action="validacion" method="POST"  autocomplete="off">
+				<form  action="validacion.php" method="POST"  autocomplete="off">
 				
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
 					<!--	<span class="bg"><b>USUARIO</b></span> -->
 						
-						<input class="input100" type="text" name="button" required placeholder="Escriba aquí el nombre de usuario">
+						<input class="input100" type="text" name="user" required placeholder="Escriba aquí el usuario">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
 					<!--	<span class="bg"><b>CONTRASEÑA</b></span> -->
-						<input class="input100" type="password" name="button2" required placeholder="Ingrese su contraseña">
+						<input class="input100" type="password" name="password" required placeholder="Ingrese su contraseña">
 						<input type="hidden" name="cifrado" value="<?php echo $token; ?>">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
@@ -107,6 +107,16 @@ $_SESSION['token'] = $token;
 				  	</div>
 								
 				</form>
+
+				<div>
+					<?php
+					
+						if (isset($_REQUEST["loginError"])) {
+
+							echo "Usuario / clave incorrectas";
+						}
+					?>
+				</div>
 			
 		
 	</div>

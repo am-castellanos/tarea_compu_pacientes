@@ -1,6 +1,12 @@
 <?php
 session_start(); //esta linea tiene que ir antes de cualquier cosa, incluso de espacios
 ob_start();
+
+if (!isset($_SESSION['NOMBRE_COMPLETO']) || $_SESSION['NOMBRE_COMPLETO'] == NULL || $_SESSION['NOMBRE_COMPLETO'] == '') {
+
+  header("location: index.php");
+}
+
 $usuario = $_SESSION['NOMBRE_COMPLETO'];
 ?>
 
@@ -73,7 +79,7 @@ text-shadow: 0.1em 0.1em 0.15em white;
         </button>
         <div id="menu" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-3">
-            <li class="nav-item"><a class="nav-link" href="pacientes"> Inicio </a></li>
+            <li class="nav-item"><a class="nav-link" href="pacientes.php"> Inicio </a></li>
             <li class="nav-tem dropdown">
                 <a  class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                     Opciones 
@@ -83,7 +89,7 @@ text-shadow: 0.1em 0.1em 0.15em white;
                  <li><div id="menu2" class="opciones">REPORTES</div></li>
                  <li><div id="menu3" class="opciones">MANTENIMIENTOS</div></li>
                  <li><div id="menu4" class="opciones">NUEVOS USUARIOS</div></li>
-                 <li><div  > <a href="salir" class="opciones">SALIR  </a></div></li>
+                 <li><div  > <a href="salir.php" class="opciones">SALIR  </a></div></li>
                 </ul>
 
                 

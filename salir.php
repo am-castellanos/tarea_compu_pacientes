@@ -47,6 +47,8 @@ ob_start();
 session_unset();
 session_destroy();
 
+header("location: index.php");
+
 ?>
 <body oncontextmenu="return false">
    <div class="container w-50 "> <div class="row"> <div class="col">

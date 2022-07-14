@@ -16,25 +16,25 @@
        <div class="row">
   
                     <div class="col text-center">
-                    <form action="insertar_datos" method="post">
+                    <form action="insertar_datos.php" method="post">
                     <input type="submit" class="btn btn-primary"   value="CLIC PARA INSERTAR INFO">
                     </form>
                     </div>
 
 
                     <div class="col text-center">
-                    <form action="actualizar_datos" method="post">
+                    <form action="actualizar_datos.php" method="post">
                     <input type="submit" class="btn btn-secondary"   value="CLIC PARA ACTUALIZAR INFO">
                     </form>
                     </div>
 
                     <div class="col text-center">
-                    <form action="eliminar_datos" method="post">
+                    <form action="eliminar_datos.php" method="post">
                     <input type="submit" class="btn btn-secondary"   value="CLIC PARA ELIMINAR  INFO">
                     </form>
                     </div>
                     <div class="col text-center">
-                    <form action="reporte" method="post">
+                    <form action="reporte.php" method="post">
                     <input type="submit" class="btn btn-secondary"   value="CLIC PARA REPORTAR  INFO">
                     </form>
                     </div>
